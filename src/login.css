@@ -1,0 +1,38 @@
+.box-1{
+    display: grid;
+    place-items: center;
+    height: 510px;
+}
+
+.box-2{
+    background-color: white;
+    height: 300px;
+    width: 350px;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: -1px 4px 20px -6px rgba(43, 42, 42, 0.7);
+}
+
+.box-2 > img{
+    height: 90px;
+    width: 90px;
+    padding-top: 50px;
+    padding-left: 120px;
+}
+
+.box-2 > h3{
+    padding-top: 30px;
+    padding-left: 80px;
+}
+
+.btn{
+    margin-top: 35px;
+    margin-left: 120px;
+    color: white;
+    background-color: rgb(7, 148, 7);
+    padding: 5px;
+    font-size: x-small;
+    border: none;
+    cursor: pointer;
+}
+
