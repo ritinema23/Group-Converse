@@ -1,5 +1,11 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## ABOUT THIS PROJECT
+
+It is a whats app clone .This project is made on react.js. For the UI design material UI is used.
+Firebase is used to store the messages.There are different rooms which has different collection of messages.
+This app has login with google authentication which is done through firebase and context-api.
+
 ## Available Scripts
 
 In the project directory, you can run:
