@@ -3,6 +3,7 @@ import './login.css'
 import {auth, provider} from './firebase';
 import { useStateValue } from './StateProvider';
 import { actionTypes } from './reducer';
+import Img from './chatlogo.jpg'
 
 function Login() {
 
@@ -22,10 +23,10 @@ const onSignin = () => {
     return (
         <div className="box-1">
             <div className="box-2">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" 
+                <img src={Img} 
                      alt="image not found"
                 />
-                <h3>Sign in to Whatsapp</h3>
+                <h3>Sign in to Group Converse</h3>
                 <button className="btn"
                         onClick={onSignin}
                 >
